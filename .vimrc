@@ -447,6 +447,16 @@ map <leader>x :e ~/buffer.md<cr>
 map <leader>pp :setlocal paste!<cr>
 
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+set rtp +=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
