@@ -1,0 +1,7 @@
+[user]
+	name = Andreas Kristoffersen
+	email = Krissam@gmail.com
+[push]
+	default = simple
+[core]
+	editor = vim
