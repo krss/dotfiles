@@ -1,7 +1,15 @@
 [user]
 	name = Andreas Kristoffersen
 	email = Krissam@gmail.com
-[push]
-	default = simple
 [core]
 	editor = vim
+[alias]
+    st = status
+    ci = commit --verbose
+    co = checkout
+    aa = add --all
+    ff = merge --ff-only
+    pullff = pull --ff-only
+    dh1 = diff HEAD~1
+[merge]
+    tool = vimdiff
