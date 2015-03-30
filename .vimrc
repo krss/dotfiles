@@ -387,6 +387,14 @@ endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
+noremap <Up> ""
+noremap! <Up> <Esc>
+noremap <Down> ""
+noremap! <Down> <Esc>
+noremap <Left> ""
+noremap! <Left> <Esc>
+noremap <Right> ""
+noremap! <Right> <Esc>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Ack searching and cope displaying
