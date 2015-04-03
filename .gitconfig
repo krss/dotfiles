@@ -16,3 +16,5 @@
     hp = "!. ~/.githelpers && show_git_head"
 [merge]
     tool = vimdiff
+[push]
+	default = simple
