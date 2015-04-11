@@ -387,6 +387,9 @@ endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Kill Arrowkeys
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 noremap <Up> ""
 noremap! <Up> <Esc>
 noremap <Down> ""
@@ -453,6 +456,14 @@ map <leader>x :e ~/buffer.md<cr>
 
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
+
+" Fix common typos
+
+command! WQ wq
+command! Wq wq
+command! Wqa wqa
+command! W w
+command! Q q
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
