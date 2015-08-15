@@ -12,8 +12,8 @@
     pullff = pull --ff-only
     dh1 = diff HEAD~1
 
-    l = "!. ~/.githelpers && pretty_git_log"
-    hp = "!. ~/.githelpers && show_git_head"
+    l = "!. ~/dotfiles/githelpers.sh && pretty_git_log"
+    hp = "!. ~/dotfiles/githelpers.sh && show_git_head"
 [merge]
     tool = vimdiff
 [push]

@@ -1,0 +1,12 @@
+[
+    {
+        "clean": ["~"]
+    },
+    {
+        "link": {
+            "~/.vimrc": "vimrc",
+            "~/.vim": "vim/",
+            "~/.gitconfig": "gitconfig"
+        }
+    }
+]
