@@ -476,7 +476,6 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
-Plugin 'wincent/command-t'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Layout Settings
