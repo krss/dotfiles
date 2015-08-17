@@ -473,7 +473,7 @@ command! Q q
 set rtp +=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 Plugin 'gmarik/Vundle.vim'
-
+Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 
