@@ -6,7 +6,8 @@
         "link": {
             "~/.vimrc": "vimrc",
             "~/.vim": "vim/",
-            "~/.gitconfig": "gitconfig"
+            "~/.gitconfig": "gitconfig",
+            "~/.minttyrc": "minttyrc"
         }
     },
     {
