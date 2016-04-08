@@ -7,7 +7,8 @@
             "~/.vimrc": "vimrc",
             "~/.vim": "vim/",
             "~/.gitconfig": "gitconfig",
-            "~/.minttyrc": "minttyrc"
+            "~/.minttyrc": "minttyrc",
+            "~/.tmux.conf": "tmux.conf"
         }
     },
     {
