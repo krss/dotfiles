@@ -4,6 +4,7 @@
     },
     {
         "link": {
+            "~/.bashrc": "bashrc",
             "~/.vimrc": "vimrc",
             "~/.vim": "vim/",
             "~/.gitconfig": "gitconfig",
