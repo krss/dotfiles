@@ -3,7 +3,7 @@
 ##########
 
 alias stmux="~/dotfiles/tmuxdev.sh"
-alias outpipe='echo clear > ~/.outpipe; echo $@ > ~/.outpipe'
+alias outpipe='pwd > ~/.outpipeDir; echo $@ > ~/.outpipe'
 
 ##########
 # Settings
