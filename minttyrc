@@ -1,5 +1,6 @@
 CursorType=Block
 FontHeight=12
+Font=Source Code Pro
 
 BellType=0
 BellSound=no
