@@ -8,6 +8,12 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Leadermaps
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let mapleader = ","
+nmap <leader>t :nmap <lt>leader>r :silent! !outpipe  <lt>cr> \\| :redraw!<lt>cr><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left>
+nmap <leader>d :redraw!<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Layout Settings
@@ -45,10 +51,8 @@ set statusline+=%{getcwd()}
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Misc
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Enable system clipboard
 set clipboard=unnamed
-
-" Enable mouse
+set shellcmdflag=-ic
 set mouse=a
 
 " Remove trailing whitespace when saving
