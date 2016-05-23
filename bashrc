@@ -4,8 +4,15 @@
 
 alias ll='ls -l'
 alias stmux="~/dotfiles/tmuxdev.sh"
-alias outpipe='pwd > ~/.outpipeDir; echo $@ > ~/.outpipe'
 
+##########
+# Scripts
+##########
+
+function outpipe() {
+    echo $(pwd):$@ > ~/.tmp/outpipe
+    echo $@ > ~/.tmp/outpipe2
+}
 ##########
 # Settings
 ##########
