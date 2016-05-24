@@ -4,6 +4,7 @@
 
 alias ll='ls -l'
 alias stmux="~/dotfiles/tmuxdev.sh"
+alias tma="tmux attach"
 
 ##########
 # Scripts
@@ -13,11 +14,13 @@ function outpipe() {
     echo $(pwd):$@ > ~/.tmp/outpipe
     echo $@ > ~/.tmp/outpipe2
 }
+
 ##########
 # Settings
 ##########
 
 alias ls='ls --color=auto'
+alias rspec='rspec --color'
 
 ##########
 # Sources
