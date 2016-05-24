@@ -55,15 +55,26 @@ set clipboard=unnamed
 set shellcmdflag=-ic
 set mouse=a
 
-" Remove trailing whitespace when saving
-autocmd BufWritePre * :%s/\s\+$//e
-
 " Fix common typos
 command! WQ wq
 command! Wq wq
 command! Wqa wqa
 command! W w
 command! Q q
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Autocommands
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+augroup AutoCommands
+    au!
+" Remove trailing whitespace when saving
+autocmd BufWritePre * :%s/\s\+$//e
+
+autocmd bufreadpost *
+  \ if line("'\"") > 0 && line("'\"") <= line("$") |
+  \     exe "normal g`\"" |
+  \ endif
+augroup END
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -76,3 +87,8 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tmhedberg/matchit'
+Plugin 'terryma/vim-multiple-cursors'
+" HTML
+Plugin 'rstacruz/sparkup'
+
