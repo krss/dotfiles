@@ -3,6 +3,7 @@
 # Log output:
 #
 # * 51c333e    (12 days)    <Gary Bernhardt>   add vim-eunuch
+# (your own name is replaced by the word you to keep it short)
 #
 # The time massaging regexes start with ^[^<]* because that ensures that they
 # only operate before the first "<". That "<" will be the beginning of the
@@ -15,7 +16,7 @@
 
 HASH="%C(yellow)%h%Creset"
 RELATIVE_TIME="%Cgreen(%ar)%Creset"
-AUTHOR="%C(bold blue)<%an>%Creset"
+AUTHOR="%C(bold magenta)<%an>%Creset"
 REFS="%C(bold red)%d%Creset"
 SUBJECT="%s"
 
@@ -47,6 +48,8 @@ show_git_head() {
 
 pretty_git_log() {
     git log --graph --pretty="tformat:${FORMAT}" $* |
+        # Replace (Andreas Kristoffersen) with (me)
+        sed "s/`git config --get user.name`/you/g" |
         # Replace (2 years ago) with (2 years)
         sed -Ee 's/(^[^<]*) ago\)/\1)/' |
         # Replace (2 years, 5 months) with (2 years)
