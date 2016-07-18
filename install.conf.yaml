@@ -3,6 +3,12 @@
         "clean": ["~"]
     },
     {
+        "shell": [
+                ["git submodule update --init --recursive", "Installing submodules"],
+                ["rm ~/.bashrc", "Removing default .bashrc"]
+        ]
+    },
+    {
         "link": {
             "~/.bashrc": "bashrc",
             "~/.vimrc": "vimrc",
@@ -11,10 +17,5 @@
             "~/.minttyrc": "minttyrc",
             "~/.tmux.conf": "tmux.conf"
         }
-    },
-    {
-        "shell": [
-                ["git submodule update --init --recursive", "Installing submodules"]
-        ]
     }
 ]
