@@ -87,6 +87,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
 Plugin 'tmhedberg/matchit'
 Plugin 'terryma/vim-multiple-cursors'
 " HTML
