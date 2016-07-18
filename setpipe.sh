@@ -11,7 +11,6 @@ while true; do
     #/home/krss/src/example:ls
     cmd="$(cat ~/.tmp/outpipe)"
     cd $(echo $cmd | cut -d":" -f1)
-    echo $cmd
     echo
     echo $(pwd) '$' $(echo $cmd | cut -d":" -f2)
     source ~/.tmp/outpipe2

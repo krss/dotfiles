@@ -2,6 +2,7 @@
 # Aliases
 ##########
 
+alias la='ls -la'
 alias ll='ls -l'
 alias stmux="~/dotfiles/tmuxdev.sh"
 alias tma="tmux attach"
