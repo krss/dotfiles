@@ -10,6 +10,7 @@
     },
     {
         "link": {
+            "~/.zshrc": "shell/zshrc",
             "~/.bashrc": "bashrc",
             "~/.vimrc": "vimrc",
             "~/.vim": "vim/",
