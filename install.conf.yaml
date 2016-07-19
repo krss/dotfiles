@@ -11,6 +11,7 @@
     {
         "link": {
             "~/.zshrc": "shell/zshrc",
+            "~/.oh-my-zsh": "shell/oh-my-zsh/",
             "~/.bashrc": "bashrc",
             "~/.vimrc": "vimrc",
             "~/.vim": "vim/",
