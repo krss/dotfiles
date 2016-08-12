@@ -8,11 +8,11 @@
     ci = commit --verbose
     co = checkout
     aa = add --all
-    ff = merge --ff-only
-    pullff = pull --ff-only
+    ff = pull --ff-only
     dh1 = diff HEAD~1
 
     l = "!. ~/dotfiles/githelpers.sh && pretty_git_log"
+    r = "!git l -10"
     hp = "!. ~/dotfiles/githelpers.sh && show_git_head"
 [merge]
     tool = vimdiff
