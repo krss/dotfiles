@@ -9,6 +9,7 @@
     co = checkout
     aa = add --all
     ff = pull --ff-only
+    dc = diff --cached
     dh1 = diff HEAD~1
 
     l = "!. ~/dotfiles/githelpers.sh && pretty_git_log"
