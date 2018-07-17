@@ -12,7 +12,7 @@ map <C-l> <C-W>l
 " => Leadermaps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader = ","
-nmap <leader>t :nmap <lt>leader>r :silent! !outpipe  <lt>cr> \\| :redraw!<lt>cr><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left>
+nmap <leader>t :nmap <lt>leader>r :w \\| :silent! !outpipe  <lt>cr> \\| :redraw!<lt>cr><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left>
 nmap <leader>d :redraw!<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
