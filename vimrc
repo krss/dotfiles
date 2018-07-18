@@ -8,6 +8,12 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+set splitbelow
+set splitright
+
+set winheight=30
+set winminheight=5
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Leadermaps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
