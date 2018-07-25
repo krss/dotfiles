@@ -61,6 +61,9 @@ set clipboard=unnamed
 set shellcmdflag=-ic
 set mouse=a
 
+" Move .swp files
+set directory^=$HOME/.vim/tmp//
+
 " Fix common typos
 command! WQ wq
 command! Wq wq
