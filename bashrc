@@ -7,6 +7,7 @@ alias ll='ls -l'
 alias stmux="~/dotfiles/tmuxdev.sh"
 alias tma="tmux attach"
 
+alias dotfiles='pushd ~/dotfiles > /dev/null'
 alias vimrc='vim ~/.vimrc'
 
 ##########
