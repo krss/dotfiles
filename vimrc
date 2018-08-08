@@ -17,14 +17,14 @@ set winminheight=5
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Search
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-noremap <space> /
-noremap <enter> :nohl<cr>
+nnoremap <space> /
+nnoremap <enter> :nohl<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Leadermaps
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let mapleader = ","
-nmap <leader>t :nmap <lt>leader>r :w \\| :silent! !outpipe  <lt>cr> \\| :redraw!<lt>cr><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left>
+nmap <leader>t :nnoremap <lt>leader>r :w \\| :silent! ! & <lt>cr> \\| :redraw!<lt>cr><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left><left>
 nmap <leader>d :redraw!<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
