@@ -11,8 +11,8 @@ map <C-l> <C-W>l
 set splitbelow
 set splitright
 
-set winheight=30
-set winminheight=5
+silent! set winheight=30
+silent! set winminheight=5
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Search
