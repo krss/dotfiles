@@ -10,6 +10,7 @@ alias tma="tmux attach"
 alias dotfiles='pushd ~/dotfiles > /dev/null'
 alias vimrc='vim ~/.vimrc'
 
+alias httpserv=$'tmux rename-window "http ($(pwd | grep -o \'/[^/]*$\'))" 2> /dev/null && python3 -m http.server'
 ##########
 # Scripts
 ##########
