@@ -9,12 +9,16 @@ alias tma="tmux attach"
 
 alias dotfiles='pushd ~/dotfiles > /dev/null'
 alias vimrc='vim ~/.vimrc'
+alias vman='vim_manual'
 
 alias httpserv=$'tmux rename-window "http ($(pwd | grep -o \'/[^/]*$\'))" 2> /dev/null && python3 -m http.server'
 ##########
 # Scripts
 ##########
 
+function vim_manual() {
+    vim <(man $1)
+}
 function outpipe() {
     echo $(pwd):$@ > ~/.tmp/outpipe
     echo $@ > ~/.tmp/outpipe2
