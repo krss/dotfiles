@@ -4,6 +4,7 @@
 
 alias la='ls -la'
 alias ll='ls -l'
+alias popd='popd > /dev/null'
 alias stmux="~/dotfiles/tmuxdev.sh"
 alias tma="tmux attach"
 
