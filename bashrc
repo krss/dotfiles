@@ -5,7 +5,6 @@
 alias la='ls -la'
 alias ll='ls -l'
 alias popd='popd > /dev/null'
-alias stmux="~/dotfiles/tmuxdev.sh"
 alias tma="tmux attach"
 
 alias dotfiles='pushd ~/dotfiles > /dev/null'
@@ -19,10 +18,6 @@ alias httpserv=$'tmux rename-window "http ($(pwd | grep -o \'/[^/]*$\'))" 2> /de
 
 function vim_manual() {
     vim <(man $1)
-}
-function outpipe() {
-    echo $(pwd):$@ > ~/.tmp/outpipe
-    echo $@ > ~/.tmp/outpipe2
 }
 
 ##########
