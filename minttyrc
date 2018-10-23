@@ -1,6 +1,6 @@
 CursorType=block
 FontHeight=12
-Font=Source Code Pro
+Font=Source Code Variable Semibold
 Scrollbar=none
 
 BellType=0
@@ -13,3 +13,4 @@ CursorColour=220,50,47
 
 Locale=C
 Charset=UTF-8
+FontWeight=600
