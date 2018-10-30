@@ -12,7 +12,7 @@
         "link": {
             "~/.zshrc": "shell/zshrc",
             "~/.oh-my-zsh": "shell/oh-my-zsh/",
-            "~/.bashrc": "bashrc",
+            "~/.bashrc": "shell/bashrc",
             "~/.vimrc": "vimrc",
             "~/.vim": "vim/",
             "~/.gitconfig": "gitconfig",
