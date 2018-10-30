@@ -5,7 +5,7 @@
 	editor = vim
 [alias]
     st = status
-    cam = commit --amend
+    cam = commit --verbose --amend
     ci = commit --verbose
     co = checkout
     aa = add --all
