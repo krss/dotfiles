@@ -27,3 +27,15 @@ function vim_manual() {
 
 alias ls='ls --color=auto'
 alias rspec='rspec --color'
+
+##########
+# Windows Apps
+##########
+
+function code() {
+    if [ -f "$LOCALAPPDATA/Programs/Microsoft VS Code/Code.exe" ]; then
+        cygstart "$LOCALAPPDATA/Programs/Microsoft VS Code/Code.exe"
+    else
+        echo 'VSCode path unknown'
+    fi
+}
