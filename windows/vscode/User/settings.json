@@ -1,3 +1,30 @@
 {
-    "workbench.colorTheme": "Visual Studio Dark"
+    "editor.fontFamily": "Source Code Variable Semibold, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "600",
+    "editor.renderWhitespace": "boundary",
+    "terminal.integrated.shell.windows": "c:\\cygwin64\\bin\\zsh.exe",
+    "terminal.integrated.shellArgs.windows": [ "--login" ],
+    "workbench.colorTheme": "Visual Studio Dark",
+    "vim.changeWordIncludesWhitespace": true,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [ "<C-h>" ],
+            "after": [ "<C-w>", "h" ]
+        },
+        {
+            "before": [ "<C-j>" ],
+            "after": [ "<C-w>", "j" ]
+        },
+        {
+            "before": [ "<C-k>" ],
+            "after": [ "<C-w>", "k" ]
+        },
+        {
+            "before": [ "<C-l>" ],
+            "after": [ "<C-w>", "l" ]
+        },
+    ],
+    "vim.useSystemClipboard": true,
 }
