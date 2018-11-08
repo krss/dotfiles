@@ -34,7 +34,7 @@ alias rspec='rspec --color'
 
 function code() {
     if [ -f "$LOCALAPPDATA/Programs/Microsoft VS Code/Code.exe" ]; then
-        cygstart "$LOCALAPPDATA/Programs/Microsoft VS Code/Code.exe"
+        cygstart "$LOCALAPPDATA/Programs/Microsoft VS Code/Code.exe" $1
     else
         echo 'VSCode path unknown'
     fi
