@@ -1,11 +1,14 @@
 {
+    "editor.codeLens": false,
     "editor.fontFamily": "Source Code Variable Semibold, Consolas, 'Courier New', monospace",
     "editor.fontSize": 16,
     "editor.fontWeight": "600",
     "editor.renderWhitespace": "boundary",
+    "files.autoSave": "onFocusChange",
     "terminal.integrated.shell.windows": "c:\\cygwin64\\bin\\zsh.exe",
     "terminal.integrated.shellArgs.windows": [ "--login" ],
     "workbench.colorTheme": "Visual Studio Dark",
+    "git.ignoreMissingGitWarning": true,
     "vim.changeWordIncludesWhitespace": true,
     "vim.hlsearch": true,
     "vim.normalModeKeyBindings": [
