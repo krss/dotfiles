@@ -1,4 +1,13 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+z", "command": "workbench.action.terminal.toggleTerminal" },
+    {
+        "key": "ctrl+z",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "oem_comma t",
+        "command": "workbench.action.tasks.runTask",
+        "args": "run tests",
+        "when": "editorTextFocus && vim.mode != 'Insert'"
+    },
 ]
