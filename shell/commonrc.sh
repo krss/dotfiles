@@ -8,6 +8,7 @@ alias popd='popd > /dev/null'
 alias tma="tmux attach"
 
 alias dotfiles='pushd ~/dotfiles > /dev/null'
+alias gf='cp -t . $1'
 alias vimrc='vim ~/.vimrc'
 alias vman='vim_manual'
 
